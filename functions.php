@@ -122,7 +122,7 @@ function md0_setup() {
 	 * This theme styles the visual editor to resemble the theme style,
 	 * specifically font, colors, icons, and column width.
 	 */
-	add_editor_style( array( 'css/editor-style.css'/*, md0_fonts_url()*/ ) );
+	add_editor_style( array( 'css/editor-style.css' ) );
 
 	// Indicate widget sidebars can use selective refresh in the Customizer.
 	add_theme_support( 'customize-selective-refresh-widgets' );
@@ -203,7 +203,7 @@ add_action( 'wp_head', 'md0_javascript_detection', 0 );
  */
 function md0_scripts() {
 	// Add custom fonts, used in the main stylesheet.
-	wp_enqueue_style( 'md0-fonts', md0_fonts_url(), array(), null );
+	// wp_enqueue_style( 'md0-fonts', md0_fonts_url(), array(), null ); //_rm_
 
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.4.1' );
