@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: md0\n"
+"POT-Creation-Date: 2016-08-20 19:37+0900\n"
+"PO-Revision-Date: 2016-08-20 20:29+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "この場所には何も見つかりませんでした。検索を試してみますか？"
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr "前のページ"
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr "次のページ"
+
+#: archive.php:51 image.php:60 index.php:48 search.php:39
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr "ページ"
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "「%s」の意見"
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$sの「%2$s」に関する意見"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "コメントの受付は締め切りました。"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "フッター基本メニュー"
+
+#: footer.php:28
+msgid "Footer Social Links Menu"
+msgstr "フッターソーシャルリンクメニュー"
+
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:51
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: functions.php:88 header.php:51
+msgid "Primary Menu"
+msgstr "基本メニュー"
+
+#: functions.php:89 header.php:62
+msgid "Social Links Menu"
+msgstr "ソーシャルリンクメニュー"
+
+#: functions.php:156
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr "サイドバーに表示するウィジェットをここに追加します。"
+
+#: functions.php:166
+msgid "Content Bottom 1"
+msgstr "本文の下部1"
+
+#: functions.php:168 functions.php:178
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "投稿やページのコンテンツの下部に表示されます。"
+
+#: functions.php:176
+msgid "Content Bottom 2"
+msgstr "本文の下部2"
+
+#: functions.php:231
+msgid "expand child menu"
+msgstr "サブメニューを開く"
+
+#: functions.php:232
+msgid "collapse child menu"
+msgstr "サブメニューを閉じる"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "本文までスキップ"
+
+#: header.php:47
+msgid "Menu"
+msgstr "メニュー"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "前の画像"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "次の画像"
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr "ページ:"
+
+#: image.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "原寸大"
+
+#: image.php:84 template-parts/content-page.php:37
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\" </span>を編集"
+
+#: image.php:102 single.php:29
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"post-title\">%title</span><span class=\"meta-nav\">に掲載</"
+"span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+#, php-format
+msgid ""
+"md0 requires at least WordPress version 4.4. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"md0はWordPressバージョン4.4以降が必要です。お使いのバージョンは%sです。アッ"
+"プグレードの上で、もう一度お試しください。"
+
+#: inc/customizer.php:130
+msgid "Base Color Scheme"
+msgstr "ベースとなるカラースキーム"
+
+#: inc/customizer.php:145
+msgid "Page Background Color"
+msgstr "ページの背景色"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: inc/customizer.php:172
+msgid "Main Text Color"
+msgstr "テキストの基本色"
+
+#: inc/customizer.php:184
+msgid "Secondary Text Color"
+msgstr "テキストのアクセントカラー"
+
+#: inc/customizer.php:253
+msgid "Default"
+msgstr "初期値"
+
+#: inc/customizer.php:263
+msgid "Dark"
+msgstr "ダーク"
+
+#: inc/customizer.php:273
+msgid "Gray"
+msgstr "灰色"
+
+#: inc/customizer.php:283
+msgid "Red"
+msgstr "赤"
+
+#: inc/customizer.php:293
+msgid "Yellow"
+msgstr "黄色"
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "著者"
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "形式"
+
+#: inc/template-tags.php:50
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span>にコメントを残す"
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "に投稿"
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "タグ"
+
+#: inc/template-tags.php:184 template-parts/content.php:28
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\"</span>の続きを読む"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索キーワード："
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: single.php:34
+msgid "Next"
+msgstr "次"
+
+#: single.php:35
+msgid "Next post:"
+msgstr "次の記事："
+
+#: single.php:37
+msgid "Previous"
+msgstr "前"
+
+#: single.php:38
+msgid "Previous post:"
+msgstr "前の記事："
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "著者："
+
+#: template-parts/biography.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr "「%s」の記事一覧"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "何もみつかりませんでした"
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の記事を投稿しますか? <a href=\"%1$s\">ここから始める</a>."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"申し訳ありませんが、検索条件に一致するものが見つかりませんでした。他のキー"
+"ワードで再度お試しください。"
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "お探しのページが見つかりませんでした。検索をお試しください。"
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "注目"
+
+#. Theme Name of the plugin/theme
+msgid "md0"
+msgstr "md0"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/yupyom/md0-theme/"
+msgstr "https://github.com/yupyom/md0-theme/"
+
+#. Description of the plugin/theme
+msgid "md0 is now development."
+msgstr "md0 は現在開発中です。"
+
+#. Author of the plugin/theme
+msgid "yupyom"
+msgstr "yupyom"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/yupyom/"
+msgstr "https://github.com/yupyom/"

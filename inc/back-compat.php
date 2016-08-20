@@ -1,0 +1,71 @@
+<?php
+/**
+ * md0 back compat functionality
+ *
+ * Prevents md0 from running on WordPress versions prior to 4.4,
+ * since this theme is not meant to be backward compatible beyond that and
+ * relies on many newer functions and markup changes introduced in 4.4.
+ *
+ * @package Vanillacream
+ * @subpackage md0
+ * @since md0
+ */
+
+/**
+ * Prevent switching to md0 on old versions of WordPress.
+ *
+ * Switches to the default theme.
+ *
+ * @since md0
+ */
+function md0_switch_theme() {
+	switch_theme( WP_DEFAULT_THEME, WP_DEFAULT_THEME );
+
+	unset( $_GET['activated'] );
+
+	add_action( 'admin_notices', 'md0_upgrade_notice' );
+}
+add_action( 'after_switch_theme', 'md0_switch_theme' );
+
+/**
+ * Adds a message for unsuccessful theme switch.
+ *
+ * Prints an update nag after an unsuccessful attempt to switch to
+ * md0 on WordPress versions prior to 4.4.
+ *
+ * @since md0
+ *
+ * @global string $wp_version WordPress version.
+ */
+function md0_upgrade_notice() {
+	$message = sprintf( __( 'md0 requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again.', 'md0' ), $GLOBALS['wp_version'] );
+	printf( '<div class="error"><p>%s</p></div>', $message );
+}
+
+/**
+ * Prevents the Customizer from being loaded on WordPress versions prior to 4.4.
+ *
+ * @since md0
+ *
+ * @global string $wp_version WordPress version.
+ */
+function md0_customize() {
+	wp_die( sprintf( __( 'md0 requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again.', 'md0' ), $GLOBALS['wp_version'] ), '', array(
+		'back_link' => true,
+	) );
+}
+add_action( 'load-customize.php', 'md0_customize' );
+
+/**
+ * Prevents the Theme Preview from being loaded on WordPress versions prior to 4.4.
+ *
+ * @since md0
+ *
+ * @global string $wp_version WordPress version.
+ */
+function md0_preview() {
+	if ( isset( $_GET['preview'] ) ) {
+		wp_die( sprintf( __( 'md0 requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again.', 'md0' ), $GLOBALS['wp_version'] ) );
+	}
+}
+add_action( 'template_redirect', 'md0_preview' );
