@@ -279,16 +279,6 @@ function md0_get_color_schemes() {
 				'#586e75',
 			),
 		),
-		'monokai' => array(
-			'label'  => __( 'Red', 'md0' ),
-			'colors' => array(
-				'#272822',
-				'#272822',
-				'#66d9ef',
-				'#ffffff',
-				'#75715e',
-			),
-		),
 		'solarized-light' => array(
 			'label'  => __( 'Solarized Light', 'md0' ),
 			'colors' => array(
@@ -297,6 +287,16 @@ function md0_get_color_schemes() {
 				'#268bd2',
 				'#657b83',
 				'#93a1a1',
+			),
+		),
+		'monokai' => array(
+			'label'  => __( 'Monokai', 'md0' ),
+			'colors' => array(
+				'#272822',
+				'#272822',
+				'#66d9ef',
+				'#ffffff',
+				'#75715e',
 			),
 		),
 	) );
