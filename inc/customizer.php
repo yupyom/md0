@@ -259,44 +259,44 @@ function md0_get_color_schemes() {
 				'#686868',
 			),
 		),
-		'dark' => array(
-			'label'  => __( 'Dark', 'md0' ),
+		'vscode-light' => array(
+			'label'  => __( 'VSCode Light+', 'md0' ),
 			'colors' => array(
-				'#262626',
-				'#1a1a1a',
-				'#9adffd',
-				'#e5e5e5',
-				'#c1c1c1',
+				'#f3f3f3',
+				'#ffffff',
+				'#ffff00',
+				'#000000',
+				'#666666',
 			),
 		),
-		'gray' => array(
-			'label'  => __( 'Gray', 'md0' ),
+		'solarized-dark' => array(
+			'label'  => __( 'Solarized Dark', 'md0' ),
 			'colors' => array(
-				'#616a73',
-				'#4d545c',
-				'#c7c7c7',
-				'#f2f2f2',
-				'#f2f2f2',
+				'#073642',
+				'#002b36',
+				'#2aa198',
+				'#839496',
+				'#586e75',
 			),
 		),
-		'red' => array(
+		'monokai' => array(
 			'label'  => __( 'Red', 'md0' ),
 			'colors' => array(
+				'#272822',
+				'#272822',
+				'#66d9ef',
 				'#ffffff',
-				'#ff675f',
-				'#640c1f',
-				'#402b30',
-				'#402b30',
+				'#75715e',
 			),
 		),
-		'yellow' => array(
-			'label'  => __( 'Yellow', 'md0' ),
+		'solarized-light' => array(
+			'label'  => __( 'Solarized Light', 'md0' ),
 			'colors' => array(
-				'#3b3721',
-				'#ffef8e',
-				'#774e24',
-				'#3b3721',
-				'#5b4d3e',
+				'#eee8d5',
+				'#fdf6e3',
+				'#268bd2',
+				'#657b83',
+				'#93a1a1',
 			),
 		),
 	) );
