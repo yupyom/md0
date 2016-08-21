@@ -252,7 +252,7 @@ function md0_get_color_schemes() {
 		'default' => array(
 			'label'  => __( 'Default', 'md0' ),
 			'colors' => array(
-				'#1a1a1a',
+				'#ffffff',
 				'#ffffff',
 				'#007acc',
 				'#1a1a1a',
