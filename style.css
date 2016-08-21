@@ -462,8 +462,8 @@ html {
 }
 
 body {
-	background: #1a1a1a;
-	/* Fallback for when there is no custom background color defined. */
+	background: #ffffff;
+	/* Fallback for when there is default or no custom background color defined. */
 }
 
 hr {
