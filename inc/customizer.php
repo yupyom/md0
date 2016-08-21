@@ -264,7 +264,7 @@ function md0_get_color_schemes() {
 			'colors' => array(
 				'#f3f3f3',
 				'#ffffff',
-				'#ffff00',
+				'#0000ff',
 				'#000000',
 				'#666666',
 			),
@@ -274,7 +274,7 @@ function md0_get_color_schemes() {
 			'colors' => array(
 				'#073642',
 				'#002b36',
-				'#2aa198',
+				'#268bd2',
 				'#839496',
 				'#586e75',
 			),
